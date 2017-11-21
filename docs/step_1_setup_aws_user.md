@@ -116,7 +116,7 @@ If you have any questions or feedback, [please contact our product team] or chat
 [Add IAM User]: https://cdn-images-1.medium.com/max/1600/1*xxCDJ2YBmSeu5fLMp4WjmQ.png
 [Set User Details]: https://cdn-images-1.medium.com/max/2000/1*NRstuzYkVH5GTFWZB_8_Vw.png
 [Attach existing policies]: https://cdn-images-1.medium.com/max/1600/1*Gr-EaAtsbdhwOL748L69tQ.png
-[Create User]: https://cdn-images-1.medium.com/max/1600/1*Q-NRT8GaLjEZ6gDTkR3xiw.png
+[Create User]: https://s3-us-west-2.amazonaws.com/mturk-docs-media/1_ZzNcKJxZCXszai8dldrQSw.png
 [Final Add User]: https://s3-us-west-2.amazonaws.com/mturk-docs-media/Final_Add_User.png
 
 [requester.mturk.com]: https://requester.mturk.com/
