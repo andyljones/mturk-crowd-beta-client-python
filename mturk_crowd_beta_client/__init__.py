@@ -105,7 +105,9 @@ class MTurkCrowdClient(object):
             request.url,
             json.dumps(dict(request.headers)),
             request.body))
-        response = Session().send(request, timeout=_TIMEOUT_SECONDS)
+        session = Session()
+        settings = session.merge_environment_settings(request.url, {}, None, None, None)
+        response = session.send(request, timeout=_TIMEOUT_SECONDS, **settings)
         return response
 
     def _build_aws_sigv4_headers(self, method, uri_path, body):
